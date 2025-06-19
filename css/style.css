@@ -82,12 +82,18 @@ nav{
     gap: 10px;
 }
 .hero_text .left .btn_1{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
     padding:11px 30px;
     border-radius: 1000px;
     background:var(--yellow);
     border: transparent;
 }
 .hero_text .left .btn_2{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
     padding: 11px 30px;
     border-radius: 1000px;
     border: transparent;
@@ -96,13 +102,12 @@ nav{
     width: 810px;
     background-repeat: no-repeat;
     background-size: cover;
-   
 
 }
 .hero_text .right .couch{
       position: relative;
      transform: translateX(90px);
-    z-index: 5;
+      z-index: 5;
 }
 .hero_text .right .dotted{
     position: absolute;
