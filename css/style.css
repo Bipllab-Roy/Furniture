@@ -16,9 +16,11 @@ a{
 }
 :root{
     --green:#385D50;
-    --font-family: "Inter", sans-serif;
+    --font-inter: "Inter", sans-serif;
     --white:#FFFFFF;
     --yellow:#F9BF29;
+    --black:#2F2F2F;
+    --color:#6A6A6A;
 }
 
 /* All common css end */
@@ -35,7 +37,7 @@ nav{
 }
 .main_menu h3{
     padding-top: 49px;
-    font-family: var(--font-family);
+    font-family: var(--font-inter);
     font-size: 32px;
     font-weight: 500;
     color: var(--white);
@@ -53,7 +55,7 @@ nav{
 }
 .main_menu .menu ul li{}
 .main_menu .menu ul li a{
-     font-family: var(--font-family);
+     font-family: var(--font-inter);
     font-size: 16px;
     font-weight: 500;
     color: var(--white);
@@ -67,10 +69,10 @@ nav{
 }
 .hero_text .left{
     margin-top: 132px;
-    max-width: 300px;
+    max-width: 301px;
 }
 .hero_text .left p{
-     font-family: var(--font-family);
+     font-family: var(--font-inter);
     font-size: 41px;
     font-weight: 600;
     color: var(--white);
@@ -82,7 +84,7 @@ nav{
     gap: 10px;
 }
 .hero_text .left .btn_1{
-    font-family: var(--font-family);
+    font-family: var(--font-inter);
     font-size: 16px;
     font-weight: 500;
     padding:11px 30px;
@@ -91,12 +93,14 @@ nav{
     border: transparent;
 }
 .hero_text .left .btn_2{
-    font-family: var(--font-family);
+    font-family: var(--font-inter);
     font-size: 16px;
     font-weight: 500;
     padding: 11px 30px;
+    background: none;
+    color: var(--white);
     border-radius: 1000px;
-    border: transparent;
+    border:1px solid wheat;
 }
 .hero_text .right{
     width: 810px;
@@ -115,3 +119,107 @@ nav{
     transform:translateX(-175px);
     z-index: 4;
 }
+/* navbar end */
+
+/* ============
+        product start
+================    */
+
+.product_container{
+    display: flex;
+    justify-content: start;
+    gap: 85px;
+    padding-top: 90px;
+}
+.product_container .text{
+   
+}
+.product_container .text h3{
+     max-width: 205px;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 34px;
+    color: var(--black);
+    padding-bottom: 27px;
+}
+.product_container .text p{
+    max-width: 228px;
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color: var(--color);
+    padding-bottom: 33px;
+}
+.product_container .text button{
+    padding: 11px 32px;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 500;
+    color:var(--white);
+    background: var(--black);
+    border-radius: 1000px;
+    border: transparent;
+}
+.product_container .nordic{
+    max-width: 190px;
+}
+.product_container .nordic img{
+}
+.product_container .nordic .price{
+    text-align: center;
+     padding-top: 40px;
+}
+.product_container .nordic .price p{
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color: var(--black);
+}
+.product_container .nordic .price h3{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--black);
+}
+.product_container .krujo{
+    max-width: 237px;
+}
+.product_container .krujo .price{
+    text-align: center;
+    padding-top: 40px;
+}
+.product_container .krujo .price p{
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color: var(--black);
+}
+.product_container .krujo .price h3{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--black);
+}
+.product_container .ergonomic{
+    max-width: 153px;  
+}
+.product_container .ergonomic .price{
+     text-align: center;
+     padding-top: 50px;
+}
+.product_container .ergonomic .price p{
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color: var(--black);
+}
+.product_container .ergonomic .price h3{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--black);
+}
+
+/* ========
+    Product section end
+    =============== */
+
+
+
+
