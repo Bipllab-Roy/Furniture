@@ -127,7 +127,7 @@ nav{
 .product_container{
     display: flex;
     justify-content: space-between;
-    padding-top: 90px;
+    margin-top: 90px;
 }
 .product_container .text{
    
@@ -224,14 +224,17 @@ nav{
    .container_mask{
     display: flex;
     justify-content:space-between;
-    padding-top: 90px;
+    margin-top: 90px;
+   
+   }
+   .container_mask .left_text{
+    width: 505px;
    }
    .container_mask .left_text p{
     font-family: var(--font-inter);
     font-size: 14px;
     color:var(--color);
    }
-   .container_mask .left_text{}
    .container_mask .left_text .choose h2{
     font-family: var(--font-inter);
     font-weight: 600;
@@ -246,7 +249,6 @@ nav{
     gap:20px;
     padding-top: 90px;
    }
-   .container_mask .left_text .shop img{}
     .container_mask .left_text .shop h4{
         margin-top: 5px;
     }
@@ -269,24 +271,105 @@ nav{
       }
       .container_mask .right{
         position: relative;
-        width: 580px;
+        width: 520px;
       }
       .container_mask .right .img{
-        z-index: 5;
-        top:0;
-        left: 0;
-
+      position: absolute;
+    
       }
       .container_mask .right .dotted{
         position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 3;
+        transform: translate(-50px, -50px);
+       
       }
       /* ==============
           mask section end
         =============== */
-        
+        .design_container{
+            display:flex;
+            justify-content: space-between;
+            margin-top: 230px;
+        }
+        .design_container .design{
+            width: 640px;
+            position: relative;
+        }
+        .design_container .main_img{
+            position: absolute;
+        }
+        .design_container .small_img{
+            position: absolute;
+            transform: translateX(430px);
+        }
+        .design_container .img{
+            position: absolute;
+            transform: translate(328px, 200px);
+        }
+        .design_container .dot{
+            position: absolute;
+            transform: translate(-113px, -50px);
+        }
+        .design_container .top_hero{
+            width: 460px;
+            margin-top: 50px;
+        }
+        .design_container .top_hero .top h2{
+            max-width: 378px;
+            font-family: var(--font-inter);
+            color: #2F2F2F;
+            font-size: 34px;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+        .design_container .top_hero .top p{
+            max-width: 444px;
+            font-family: var(--font-inter);
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 30px;
+            color:var(--color)
+        }
+         .design_container .top_hero .middle {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+             font-family: var(--font-inter);
+            font-size: 14px;
+            color: var(--color);
+         }
+        .design_container .top_hero .middle .p1{
+            max-width: 190px;
+        }
+         .design_container .top_hero .middle .p2{
+            max-width: 190px;
+         }
+          .design_container .top_hero .bottom{
+            display: flex;
+            justify-content: space-between;
+            font-family: var(--font-inter);
+            font-size: 14px;
+            color: var(--color);
+            margin-bottom: 30px;
+         }
+         .design_container .top_hero .bottom .p3{
+            max-width: 190px;
+         }
+          .design_container .top_hero .bottom .p4{
+            max-width: 190px;
+         }
+          .design_container .top_hero button{
+            padding: 11px 32px;
+            color: var(--white);
+            background: var(--black);
+            font-family: var(--font-inter);
+            font-weight: 500;
+            font-size: 16px;
+            border-radius: 1000px;
+            border: transparent;
+    
+          }
+
+
 
 
 
