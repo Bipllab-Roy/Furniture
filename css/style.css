@@ -104,21 +104,20 @@ nav{
 }
 .hero_text .right{
     width: 810px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.hero_text .right .couch{
-      position: relative;
-     transform: translateX(90px);
-      z-index: 5;
+    
 }
 .hero_text .right .dotted{
     position: absolute;
     margin-top: 86px;
-    transform:translateX(-175px);
-    z-index: 4;
+    right: 360px;
+    z-index: 2;
 }
+.hero_text .right .couch{
+     transform: translateX(40px);
+      z-index: 5;
+       position: relative;
+}
+
 /* navbar end */
 
 /* ============
@@ -127,8 +126,7 @@ nav{
 
 .product_container{
     display: flex;
-    justify-content: start;
-    gap: 85px;
+    justify-content: space-between;
     padding-top: 90px;
 }
 .product_container .text{
@@ -219,6 +217,80 @@ nav{
 /* ========
     Product section end
     =============== */
+/* =========
+   mask section start
+   ============= */
+
+   .container_mask{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 90px;
+   }
+   .container_mask .left_text p{
+    font-family: var(--font-inter);
+    font-size: 14px;
+    color:var(--color);
+   }
+   .container_mask .left_text{}
+   .container_mask .left_text .choose h2{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 34px;
+   }
+   .container_mask .left_text .choose p{
+    padding-top: 30px;
+    max-width: 444px;
+   }
+   .container_mask .left_text .shop{
+    display:flex;
+    gap:20px;
+    padding-top: 90px;
+   }
+   .container_mask .left_text .shop img{}
+    .container_mask .left_text .shop h4{
+        margin-top: 5px;
+    }
+     .container_mask .left_text .shop p{
+        max-width: 247px;
+        margin-top: 10px;
+     }
+      .container_mask .left_text .services{
+        display:flex;
+        gap: 20px;
+        padding-top: 70px;
+      }
+      .container_mask .left_text .services img{}
+      .container_mask .left_text .services h4{
+        margin-top: 5px;
+      }
+      .container_mask .left_text .services p{
+        max-width: 247px;
+        margin-top: 10px;
+      }
+      .container_mask .right{
+        position: relative;
+        width: 580px;
+      }
+      .container_mask .right .img{
+        z-index: 5;
+        top:0;
+        left: 0;
+
+      }
+      .container_mask .right .dotted{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+      }
+      /* ==============
+          mask section end
+        =============== */
+        
+
+
+
+
 
 
 
